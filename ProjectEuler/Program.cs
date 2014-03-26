@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectEuler
+namespace Problem1
 {
     class Program
     {

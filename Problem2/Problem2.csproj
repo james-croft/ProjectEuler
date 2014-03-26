@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D4A19DE-FA7D-49FA-A52C-FEB040395F47}</ProjectGuid>
+    <ProjectGuid>{EFFC8159-C8DA-4428-8AE3-FAA4184380AD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Problem1</RootNamespace>
-    <AssemblyName>ProjectEuler</AssemblyName>
+    <RootNamespace>Problem2</RootNamespace>
+    <AssemblyName>Problem2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
