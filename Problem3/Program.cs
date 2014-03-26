@@ -4,35 +4,37 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-namespace Problem2
+namespace Problem3
 {
     using System;
 
     /// <summary>
-    /// Solution for Project Euler Problem 2 - Even Fibonacci numbers
+    /// Solution for Project Euler Problem 3 - Largest prime factor
     /// </summary>
     class Program
     {
         static void Main()
         {
-            var fibonnaci = 0;
-            var last = 1;
-            var sum = 0;
+            const long prime = 600851475143;
+            var temp = prime;
+            long largest = 0;
+            var i = 2;
 
-            while (fibonnaci < 4000000)
+            while (i * i <= temp)
             {
-                var temp = fibonnaci;
-                fibonnaci += last;
-                last = temp;
-
-                // Check if the fibonnaci number is even
-                if (fibonnaci % 2 == 0)
+                if (temp % i == 0)
                 {
-                    sum += fibonnaci;
+                    temp = temp / i;
+                    largest = i;
                 }
+                else
+                    i++;
             }
 
-            Console.WriteLine(sum);
+            if (temp > largest)
+                largest = temp;
+
+            Console.WriteLine(largest);
             Console.ReadLine();
         }
     }

@@ -1,7 +1,16 @@
-﻿using System;
+﻿//-----------------------------------------------------------------------
+// <copyright file="Program.cs" company="James Croft">
+//     Copyright (c) James Croft. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
 
 namespace Problem1
 {
+    using System;
+
+    /// <summary>
+    /// Solution for Project Euler Problem 1 - Multiples of 3 and 5
+    /// </summary>
     class Program
     {
         static void Main()
